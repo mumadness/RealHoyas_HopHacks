@@ -9,11 +9,11 @@ export default function Register() {
                 <form action="/register" method="POST" className="register-grid">
                     <input type="text" id="name" name="name" placeholder="name" autoFocus="on" required />
 
-                    <input type="text" id="username" name="username" placeholder="username" required />
+                    <input type="text" id="email" name="email" placeholder="email" required />
 
                     <input type="text" id="password" name="password" placeholder="password" required />
 
-                    <select name="nationality" className="nationality-select">
+                    <select name="nationality" className="register-select-pulldown" required>
                         <option value="">Nationality</option>
                         <option value="afghan">Afghan</option>
                         <option value="albanian">Albanian</option>
@@ -208,6 +208,36 @@ export default function Register() {
                         <option value="zambian">Zambian</option>
                         <option value="zimbabwean">Zimbabwean</option>
                     </select>
+
+                    <select name="identity" className="register-select-pulldown" required>
+                        <option value="">I am a </option>
+                        <option value="individual">Individual user</option>
+                        <option value="organization">NGO / Approved Organization</option>
+                        <option value="service-provider">Service Provider (e.g. lawyer or teacher)</option>
+                    </select>
+
+                    <p className="register-p">I am interested in</p>
+
+                    <div className="register-checkbox-option">
+                        <input type="checkbox" name="legal-consultutation" id="legal-consultation" className="register-checkbox"/>
+                        <label htmlFor="legal-consultation" className="register-input-label">Legal consultation</label>
+                    </div>
+
+                    <div className="register-checkbox-option">
+                        <input type="checkbox" name="finding-job" id="finding-job" className="register-checkbox"/>
+                        <label htmlFor="finding-job" className="register-input-label">Finding a job</label>
+                    </div>
+
+                    <div className="register-checkbox-option">
+                        <input type="checkbox" name="language-learning" id="language-learning" className="register-checkbox"/>
+                        <label htmlFor="language-learning" className="register-input-label">Learning language</label>
+                    </div>
+
+                    <div className="register-checkbox-option">
+                        <input type="checkbox" name="connect-with-others" id="connect-with-others" className="register-checkbox"/>
+                        <label htmlFor="connect-with-others" className="register-input-label">Connect with others</label>
+                    </div>
+                    
 
                     <button className="margin-top-10px">
                         Next

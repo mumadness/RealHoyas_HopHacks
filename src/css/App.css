@@ -1,6 +1,10 @@
 @import-normalize;
 @import 'fonts.css';
+@import 'button.css';
+@import 'input-box.css';
 @import 'Register.css';
+@import 'Login.css';
+@import 'NavBar.css';
 
 *, *::before, *::after {
     font-family: 'Varela Round', sans-serif;

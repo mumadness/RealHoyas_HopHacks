@@ -21,30 +21,30 @@
     margin-top: 10px;
 }
 
-.nationality-select {
+.register-select-pulldown {
     border: none;
     border-radius: 3px;
     padding: 5px;
 }
 
-input {
-    border: none;
-    outline: none;
-    padding: 10px;
-    border-bottom: 0.5px solid grey;
+.register-input-label {
+    margin: .4rem;
+    font-size: 60%;
 }
 
-button {
-    border: none;
-    background: none;
-    cursor: pointer;
-    background: hsl(210, 100%, 50%);
-    color: white;
-    padding: 10px;
-    border-radius: 7px;
+.register-checkbox-option {
+    display: flex;
+    margin-left: 9px;
 }
 
-button:hover {
-    background: hsl(210, 100%, 30%);
-    transition-duration: 0.5s;
+.register-checkbox {
+    font-size: 70%;
 }
+
+.register-p{
+    font-size: 80%;
+    margin-left: 9px;
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,26 @@
+.nav-bar-options {
+    display: flex;
+}
+
+.nav-bar-item {
+    margin-right: 30px;
+}
+
+.nav-bar-item-link {
+    color: #DFF8EB;
+    text-decoration: none;
+}
+
+.nav-bar-item-link:hover {
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0 0;
+    padding: 30px;
+    background: #018AEF;
+    color: #DFF8EB;
+}
