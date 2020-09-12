@@ -1,0 +1,8 @@
+@import-normalize;
+@import 'fonts.css';
+@import 'Register.css';
+
+*, *::before, *::after {
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+}
